@@ -39,11 +39,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Image\" />
-    <Folder Include="Komponen\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
     <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.0.36" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
@@ -61,6 +56,10 @@
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 
 </Project>

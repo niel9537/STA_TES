@@ -34,6 +34,7 @@ namespace STA_PROJECT
             button1 = new Button();
             button6 = new Button();
             panel1 = new Panel();
+            button4 = new Button();
             button3 = new Button();
             newButton = new Button();
             label9 = new Label();
@@ -53,7 +54,6 @@ namespace STA_PROJECT
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            button4 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -102,6 +102,18 @@ namespace STA_PROJECT
             panel1.Name = "panel1";
             panel1.Size = new Size(1012, 580);
             panel1.TabIndex = 4;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Yellow;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Location = new Point(305, 459);
+            button4.Name = "button4";
+            button4.Size = new Size(122, 33);
+            button4.TabIndex = 19;
+            button4.Text = "Delete";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -288,18 +300,6 @@ namespace STA_PROJECT
             label1.Size = new Size(77, 25);
             label1.TabIndex = 0;
             label1.Text = "FORM I";
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Yellow;
-            button4.FlatStyle = FlatStyle.Popup;
-            button4.Location = new Point(305, 459);
-            button4.Name = "button4";
-            button4.Size = new Size(122, 33);
-            button4.TabIndex = 19;
-            button4.Text = "Delete";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
             // 
             // Form1
             // 

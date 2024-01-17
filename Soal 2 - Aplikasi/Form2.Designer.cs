@@ -34,6 +34,10 @@ namespace STA_PROJECT
             button1 = new Button();
             button6 = new Button();
             panel1 = new Panel();
+            txtUsia = new TextBox();
+            label7 = new Label();
+            label6 = new Label();
+            btnSave = new Button();
             txtTanggalMasukKerja = new TextBox();
             txtNama = new TextBox();
             label4 = new Label();
@@ -41,10 +45,6 @@ namespace STA_PROJECT
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            btnSave = new Button();
-            label6 = new Label();
-            label7 = new Label();
-            txtUsia = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -83,6 +83,46 @@ namespace STA_PROJECT
             panel1.Name = "panel1";
             panel1.Size = new Size(1012, 580);
             panel1.TabIndex = 4;
+            // 
+            // txtUsia
+            // 
+            txtUsia.BorderStyle = BorderStyle.FixedSingle;
+            txtUsia.Location = new Point(632, 104);
+            txtUsia.Name = "txtUsia";
+            txtUsia.Size = new Size(213, 33);
+            txtUsia.TabIndex = 17;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(437, 109);
+            label7.Name = "label7";
+            label7.Size = new Size(40, 21);
+            label7.TabIndex = 16;
+            label7.Text = "Usia";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(437, 68);
+            label6.Name = "label6";
+            label6.Size = new Size(152, 21);
+            label6.TabIndex = 15;
+            label6.Text = "Tanggal Masuk Kerja";
+            // 
+            // btnSave
+            // 
+            btnSave.BackColor = Color.Yellow;
+            btnSave.FlatStyle = FlatStyle.Popup;
+            btnSave.Location = new Point(632, 137);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(213, 33);
+            btnSave.TabIndex = 14;
+            btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // txtTanggalMasukKerja
             // 
@@ -147,46 +187,6 @@ namespace STA_PROJECT
             label1.TabIndex = 0;
             label1.Text = "FORM II";
             // 
-            // btnSave
-            // 
-            btnSave.BackColor = Color.Yellow;
-            btnSave.FlatStyle = FlatStyle.Popup;
-            btnSave.Location = new Point(632, 137);
-            btnSave.Name = "btnSave";
-            btnSave.Size = new Size(213, 33);
-            btnSave.TabIndex = 14;
-            btnSave.Text = "Save";
-            btnSave.UseVisualStyleBackColor = false;
-            btnSave.Click += btnSave_Click;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(437, 68);
-            label6.Name = "label6";
-            label6.Size = new Size(152, 21);
-            label6.TabIndex = 15;
-            label6.Text = "Tanggal Masuk Kerja";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(437, 109);
-            label7.Name = "label7";
-            label7.Size = new Size(40, 21);
-            label7.TabIndex = 16;
-            label7.Text = "Usia";
-            // 
-            // txtUsia
-            // 
-            txtUsia.BorderStyle = BorderStyle.FixedSingle;
-            txtUsia.Location = new Point(632, 104);
-            txtUsia.Name = "txtUsia";
-            txtUsia.Size = new Size(213, 33);
-            txtUsia.TabIndex = 17;
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -200,7 +200,7 @@ namespace STA_PROJECT
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Kasir";
+            Text = "STA PROJECT";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

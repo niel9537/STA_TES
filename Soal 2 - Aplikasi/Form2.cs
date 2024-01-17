@@ -107,10 +107,10 @@ namespace STA_PROJECT
                 {
                     connection.Open();
 
-                  
+
                     if (DateTime.TryParseExact(txtTanggalMasukKerja.Text, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime tanggalMasuk))
                     {
-     
+
                         string query = "UPDATE Karyawan SET NmKaryawan = @Name, TglMasukKerja = @TanggalMasuk, Usia = @Usia WHERE IDKaryawan = @ID";
 
                         using (SqlCommand command = new SqlCommand(query, connection))
