@@ -34,6 +34,7 @@ namespace STA_PROJECT
             button1 = new Button();
             button6 = new Button();
             panel1 = new Panel();
+            button3 = new Button();
             newButton = new Button();
             label9 = new Label();
             dataGridView1 = new DataGridView();
@@ -52,7 +53,7 @@ namespace STA_PROJECT
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            button3 = new Button();
+            button4 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -74,6 +75,7 @@ namespace STA_PROJECT
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(newButton);
             panel1.Controls.Add(label9);
@@ -101,6 +103,18 @@ namespace STA_PROJECT
             panel1.Size = new Size(1012, 580);
             panel1.TabIndex = 4;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Yellow;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Location = new Point(161, 459);
+            button3.Name = "button3";
+            button3.Size = new Size(122, 33);
+            button3.TabIndex = 18;
+            button3.Text = "Edit";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // newButton
             // 
             newButton.BackColor = Color.Yellow;
@@ -125,17 +139,13 @@ namespace STA_PROJECT
             // 
             // dataGridView1
             // 
-            // dataGridView1
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(24, 253);
             dataGridView1.Name = "dataGridView1";
-
-            // Set the SelectionMode to FullRowSelect
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-
             dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(677, 179);
             dataGridView1.TabIndex = 15;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
@@ -279,17 +289,17 @@ namespace STA_PROJECT
             label1.TabIndex = 0;
             label1.Text = "FORM I";
             // 
-            // button3
+            // button4
             // 
-            button3.BackColor = Color.Yellow;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Location = new Point(161, 459);
-            button3.Name = "button3";
-            button3.Size = new Size(122, 33);
-            button3.TabIndex = 18;
-            button3.Text = "Edit";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button4.BackColor = Color.Yellow;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Location = new Point(305, 459);
+            button4.Name = "button4";
+            button4.Size = new Size(122, 33);
+            button4.TabIndex = 19;
+            button4.Text = "Delete";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // Form1
             // 
@@ -339,5 +349,6 @@ namespace STA_PROJECT
         private Button newButton;
         private Label label9;
         private Button button3;
+        private Button button4;
     }
 }

@@ -82,7 +82,6 @@ namespace STA_PROJECT
         {
             Form2 form2 = new Form2();
 
-            // Subscribe to the FormClosed event
             form2.FormClosed += Form2_FormClosed;
 
             form2.Show();
@@ -110,7 +109,6 @@ namespace STA_PROJECT
                     string tanggalMasuk = dataGridView1.Rows[selectedRowIndex].Cells["TglMasukKerja"].Value.ToString();
                     string usia = dataGridView1.Rows[selectedRowIndex].Cells["Usia"].Value.ToString();
 
-                    // Create and show Form2 with edit data
                     Form2 form2 = new Form2(id, nama, tanggalMasuk, usia);
 
                     form2.FormClosed += Form2_FormClosed;
@@ -127,5 +125,51 @@ namespace STA_PROJECT
             }
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedCells.Count > 0)
+            {
+                int selectedRowIndex = dataGridView1.SelectedCells[0].RowIndex;
+
+                if (dataGridView1.Rows[selectedRowIndex].Cells["IDKaryawan"].Value != null)
+                {
+                    string id = dataGridView1.Rows[selectedRowIndex].Cells["IDKaryawan"].Value.ToString();
+
+                    DialogResult result = MessageBox.Show("Apakah anda yakin ingin menghapus.?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        DeleteRecordFromDatabase(id);
+
+                        dataGridView1.Rows.RemoveAt(selectedRowIndex);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Tidak ada data yang dipilih.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void DeleteRecordFromDatabase(string id)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = $"DELETE FROM Karyawan WHERE IDKaryawan = '{id}'";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Data berhasil di hapus.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error saat hapus data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
