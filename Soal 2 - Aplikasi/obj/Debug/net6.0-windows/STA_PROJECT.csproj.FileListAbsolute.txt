@@ -1,0 +1,72 @@
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.csproj.AssemblyReference.cache
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.Properties.Resources.resources
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.csproj.GenerateResource.cache
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.AssemblyInfoInputs.cache
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.AssemblyInfo.cs
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.csproj.CoreCompileInputs.cache
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.exe
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.dll.config
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.deps.json
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.runtimeconfig.json
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\STA_PROJECT.pdb
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Serilog.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Serilog.Sinks.Console.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\Serilog.Sinks.File.dll
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.csproj.CopyComplete
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.dll
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\refint\STA_PROJECT.dll
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.pdb
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.genruntimeconfig.cache
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\ref\STA_PROJECT.dll
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.Form1.resources
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\STA\akhari-gaspol-desktop-app\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\STA\akhari-gaspol-desktop-app\obj\Debug\net6.0-windows\STA_PROJECT.Form2.resources
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.exe
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.dll.config
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.deps.json
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.runtimeconfig.json
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\STA_PROJECT.pdb
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Serilog.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Serilog.Sinks.Console.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\Serilog.Sinks.File.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\STA\Soal 2 - Aplikasi\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.csproj.AssemblyReference.cache
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.Form1.resources
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.Form2.resources
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.Properties.Resources.resources
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.csproj.GenerateResource.cache
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.AssemblyInfoInputs.cache
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.AssemblyInfo.cs
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.csproj.CoreCompileInputs.cache
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.csproj.CopyComplete
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.dll
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\refint\STA_PROJECT.dll
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.pdb
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\STA_PROJECT.genruntimeconfig.cache
+D:\STA\Soal 2 - Aplikasi\obj\Debug\net6.0-windows\ref\STA_PROJECT.dll

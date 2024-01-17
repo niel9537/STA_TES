@@ -1,0 +1,47 @@
+2023-12-18 19:08:59.758 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:10:20.645 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:10:29.002 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:10:30.495 +07:00 [INF] button1_Click
+2023-12-18 19:10:31.355 +07:00 [INF] button6_Click
+2023-12-18 19:14:04.166 +07:00 [ERR] An error occurred: Value cannot be null. (Parameter 'encoder')
+System.ArgumentNullException: Value cannot be null. (Parameter 'encoder')
+   at System.Drawing.Image.Save(Stream stream, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at KASIR.komponen.masterPos.ResizeImage(Image image, Int32 width, Int32 height) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 482
+   at KASIR.komponen.masterPos.LoadImageToPictureBox(PictureBox pictureBox, Menu menu) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 412
+2023-12-18 19:14:13.467 +07:00 [ERR] An error occurred: Value cannot be null. (Parameter 'encoder')
+System.ArgumentNullException: Value cannot be null. (Parameter 'encoder')
+   at System.Drawing.Image.Save(Stream stream, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at KASIR.komponen.masterPos.ResizeImage(Image image, Int32 width, Int32 height) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 482
+   at KASIR.komponen.masterPos.LoadImageToPictureBox(PictureBox pictureBox, Menu menu) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 412
+2023-12-18 19:15:44.235 +07:00 [ERR] An error occurred: Value cannot be null. (Parameter 'encoder')
+System.ArgumentNullException: Value cannot be null. (Parameter 'encoder')
+   at System.Drawing.Image.Save(Stream stream, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at KASIR.komponen.masterPos.ResizeImage(Image image, Int32 width, Int32 height) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 482
+   at KASIR.komponen.masterPos.LoadImageToPictureBox(PictureBox pictureBox, Menu menu) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 412
+2023-12-18 19:15:53.555 +07:00 [ERR] An error occurred: Value cannot be null. (Parameter 'encoder')
+System.ArgumentNullException: Value cannot be null. (Parameter 'encoder')
+   at System.Drawing.Image.Save(Stream stream, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at KASIR.komponen.masterPos.ResizeImage(Image image, Int32 width, Int32 height) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 482
+   at KASIR.komponen.masterPos.LoadImageToPictureBox(PictureBox pictureBox, Menu menu) in D:\AKHARI\ATP2\akhari-gaspol-desktop-app\Komponen\masterPos.cs:line 412
+2023-12-18 19:18:55.147 +07:00 [INF] button6_Click
+2023-12-18 19:19:22.672 +07:00 [INF] btnExit_Click
+2023-12-18 19:21:11.971 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:21:28.758 +07:00 [INF] button1_Click
+2023-12-18 19:21:29.421 +07:00 [INF] button6_Click
+2023-12-18 19:21:37.508 +07:00 [INF] btnExit_Click
+2023-12-18 19:22:31.553 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:23:33.957 +07:00 [INF] button1_Click
+2023-12-18 19:23:35.528 +07:00 [INF] button6_Click
+2023-12-18 19:23:38.922 +07:00 [INF] button6_Click
+2023-12-18 19:25:04.243 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:26:02.741 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:26:05.109 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:27:03.786 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:27:08.298 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:27:10.056 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:27:47.418 +07:00 [INF] btnMinimize_Click
+2023-12-18 19:32:29.474 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:32:33.004 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:32:57.422 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:33:12.686 +07:00 [INF] btnMaximize_Click
+2023-12-18 19:33:34.680 +07:00 [INF] btnExit_Click

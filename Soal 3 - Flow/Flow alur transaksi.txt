@@ -1,0 +1,5 @@
+Flow modul transaksi dapat diibaratkan sebagai mesin kasir digital. Mesin kasir digital menerima input dari pelanggan, memvalidasi input tersebut, memproses transaksi, dan melaporkan hasil transaksi.
+
+Dalam contoh di atas, sistem IT toko online berperan sebagai mesin kasir digital. Sistem IT menerima input dari pelanggan, yaitu informasi produk yang ingin dibeli. Sistem IT kemudian memvalidasi input tersebut untuk memastikan bahwa informasi tersebut valid dan sesuai dengan persyaratan transaksi pembelian. Setelah itu, sistem IT memproses transaksi pembelian sesuai dengan aturan bisnis yang berlaku. Terakhir, sistem IT melaporkan hasil transaksi pembelian kepada pelanggan.
+
+Flow modul transaksi yang efektif dapat membantu organisasi untuk meningkatkan efisiensi dan efektivitas operasional bisnis. Flow ini juga dapat membantu organisasi untuk memastikan bahwa transaksi bisnis dijalankan sesuai dengan aturan dan prosedur yang berlaku.
